@@ -1,0 +1,35 @@
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td,
+th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+.findesemana {
+	background-color: cyan;
+}
+.diasdeotromes {
+	background-color: chartreuse;
+	color: maroon;
+}
+.festivos {
+	background-color: pink;
+	color: blueviolet;
+}
+.CUMPLEANNOS {
+	background-color: yellow;
+	color: red;
+}
+.CUMPLEANNOSomar {
+	background-color: blue;
+	color: aquamarine;
+}
