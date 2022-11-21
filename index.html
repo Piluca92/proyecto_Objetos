@@ -4,10 +4,74 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>sweet_.crafts</title>
+		<title>Sweet_.crafts</title>
+		<style>
+			body {
+				background-color: palevioletred;
+			}
+
+			section {
+				margin: 20px;
+				padding: 20px;
+				background-color: pink;
+			}
+			.bordeRedondo {
+				border-radius: 5px;
+			}
+		</style>
+		<link rel="stylesheet" href="./css/navbar.css" />
 	</head>
 	<body>
-		<h1>registro</h1>
-		<a href="./menu.html"> MENÚ</a>
+		<nav>
+			<ul>
+				<li style="background-color: pink; color: deeppink"><a href="./index.html">Inicio</a></li>
+				<li style="background-color: pink; color: deeppink">
+					<a href="./blog.html">Blog</a>
+				</li>
+				<li style="background-color: pink; color: deeppink">
+					<a href="#news">NEWS</a>
+				</li>
+
+				<li style="background-color: pink; color: deeppink" class="dropdown">
+					<a>Contacto</a>
+					<div class="dropdown-content">
+						<a>E-mail</a>
+						<a>REDES SOCIALES</a>
+						<a href="https://www.youtube.com/channel/UCtHS0UoOQSMdWdJBQBzOFeQ">Mi canal de youtube</a>
+						<a href="#">Teléfono</a>
+					</div>
+				</li>
+				<li style="float: right; background-color: pink; color: deeppink"><a href="./menu.html">Sobre</a></li>
+				<li style="float: right; background-color: pink; color: deeppink"><a href="#sign">Acceder</a></li>
+			</ul>
+		</nav>
+		<section>
+			<div class="dropdown">
+				<img src="./img/IMG-20220829-WA0034.jpg" alt="Sweet_.crafts" width="100" height="100" />
+				<div class="dropdown-content">
+					<img src="./img/IMG-20220829-WA0034.jpg" alt="Sweet_.crafts" width="300" height="200" />
+					<div class="desc">Scrapbooking y más</div>
+				</div>
+			</div>
+		</section>
+		<section class="bordeRedondo">HOLA</section>
+		<section class="bordeRedondo">HOLA</section>
+		<section class="bordeRedondo">HOLA</section>
+		<section class="bordeRedondo">HOLA</section>
+		<section class="bordeRedondo"></section>
+		<section class="bordeRedondo" id="news">
+			<div style="text-align: center">
+				<iframe
+					width="640"
+					height="360"
+					src="https://www.youtube.com/embed/Tw-OHRb4hyk"
+					title="Presentación nuevo canal"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen
+				>
+				</iframe>
+			</div>
+		</section>
 	</body>
 </html>
